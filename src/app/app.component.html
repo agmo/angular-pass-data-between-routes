@@ -1,4 +1,4 @@
 <a routerLink="/">Home</a>
-<a routerLink="/page">Navigate</a>
+<a [routerLink]="['/page']" [state]="{data: 'OK'}">Navigate</a>
 
 <router-outlet></router-outlet>
