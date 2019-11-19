@@ -1,0 +1,3 @@
+a:not(:first-of-type) {
+  margin-left: 16px;
+}
