@@ -1,4 +1,5 @@
 <a routerLink="/">Home</a>
 <a [routerLink]="['/page']" [state]="{data: 'OK'}">Navigate</a>
+<button (click)="navigate()">Click to navigate</button>
 
 <router-outlet></router-outlet>
